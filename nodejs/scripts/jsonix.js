@@ -6143,7 +6143,8 @@ Jsonix.Context = Jsonix
 if (typeof require === 'function') {
 	// ... but the define function does not exists
 	if (typeof define !== 'function') {
-		if (!process.browser) {
+		// ... and if we are not in a browser ...
+		if (typeof window === 'undefined' && !process.browser) {
 			// Load the define function via amdefine
 			var define = require('amdefine')(module);
 			// Require xmldom, xmlhttprequest and fs
