@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
 	"name" : "@michaellangbein/jsonix",
 	"version" : "3.0.1-SNAPSHOT",
 	"description" : "Jsonix (JSON interfaces for XML) is a JavaScript library which allows converting between XML and JSON structures.",
@@ -13,36 +12,6 @@
 	"repository": {
 		"type": "git",
 		"url": "git://github.com/michaellangbein/jsonix.git"
-=======
-	"name": "jsonix",
-	"version": "3.0.1-SNAPSHOT",
-	"description": "Jsonix (JSON interfaces for XML) is a JavaScript library which allows converting between XML and JSON structures.",
-	"keywords": [
-		"json",
-		"xml",
-		"unmarshal",
-		"unmarshalling",
-		"marshal",
-		"marshalling",
-		"parse",
-		"parsing",
-		"serialize",
-		"serializing",
-		"javascript objects",
-		"dom",
-		"util",
-		"utility",
-		"jaxb",
-		"jsonix"
-	],
-	"homepage": "http://github.com/highsource/jsonix",
-	"bugs": {
-		"url": "http://github.com/highsource/jsonix/issues"
-	},
-	"repository": {
-		"type": "git",
-		"url": "http://github.com/highsource/jsonix.git"
->>>>>>> f258c7081b57e93134ab354697a07cceb2c9b120
 	},
 	"licenses": [
 		{
@@ -54,7 +23,6 @@
 		"name": "Alexey Valikov",
 		"url": "http://github.com/highsource"
 	},
-<<<<<<< HEAD
 	"contributors" : [ {
 		"name" : "Conrad Pankoff",
 		"url" : "https://github.com/deoxxa"
@@ -62,28 +30,11 @@
 	"main" : "jsonix.js",
 	"scripts" : {
 		"test" : "nodeunit tests/tests.js"
-=======
-	"contributors": [
-		{
-			"name": "Conrad Pankoff",
-			"url": "https://github.com/deoxxa"
-		}
-	],
-	"main": "jsonix.js",
-	"scripts": {
-		"test": "nodeunit tests/tests.js"
-	},
-	"dependencies": {
-		"amdefine": "0.x.x",
-		"xmldom": ">=0.1.21",
-		"xmlhttprequest": "1.x.x"
->>>>>>> f258c7081b57e93134ab354697a07cceb2c9b120
 	},
 	"devDependencies": {
 		"nodeunit": "0.x.x",
 		"node-static": "0.x.x"
 	},
-<<<<<<< HEAD
 	"devDependencies" : {
 		"nodeunit" : "0.x.x",
 		"node-static" : "0.x.x"
@@ -92,9 +43,3 @@
 		"registry": "https://npm.pkg.github.com/"
 	} 
 }
-=======
-	"engines": [
-		"node >= 0.8.0"
-	]
-}
->>>>>>> f258c7081b57e93134ab354697a07cceb2c9b120
