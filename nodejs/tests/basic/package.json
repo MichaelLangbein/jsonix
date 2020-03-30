@@ -6,7 +6,7 @@
 	],
 	"main": "jsonix-tests-basic.js",
 	"dependencies": {
-		"jsonix": "file:../../scripts/jsonix-3.0.1-SNAPSHOT-2.tgz"
+		"jsonix": "file:../../scripts/jsonix-3.0.1-SNAPSHOT-3.tgz"
 	},
 	"devDependencies": {
 		"nodeunit": "0.x.x",
