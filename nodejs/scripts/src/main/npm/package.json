@@ -34,12 +34,5 @@
 	"devDependencies": {
 		"nodeunit": "0.x.x",
 		"node-static": "0.x.x"
-	},
-	"devDependencies" : {
-		"nodeunit" : "0.x.x",
-		"node-static" : "0.x.x"
-	},
-	"publishConfig": {
-		"registry": "https://npm.pkg.github.com/"
-	} 
+	}
 }
